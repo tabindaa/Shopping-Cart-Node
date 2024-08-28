@@ -1,0 +1,7 @@
+extends layout/main-layout.pug
+
+block content 
+    h1 Products
+    ul 
+        each prod in products
+            li #{prod.title}
